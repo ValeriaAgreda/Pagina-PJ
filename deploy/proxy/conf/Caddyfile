@@ -1,0 +1,7 @@
+pjservices-srl.com {
+    reverse_proxy pjservices-app:3000
+}
+
+www.pjservices-srl.com {
+    redir https://pjservices-srl.com{uri} permanent
+}
